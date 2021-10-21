@@ -1,0 +1,11 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  width: 1056px;
+  height: 500px;
+}
+.box {
+  display: flex;
+  width: 440px;
+  height: 94px;
+}
