@@ -4,22 +4,58 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>code-test</title>
-	<link rel="stylesheet" type="text/css" href="/CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+
 </head>
 <body>
-	<header class="header">Название проекта</header>
+	<header class="header">TESTCHI</header>
 	<main class="main">
 		<div class="wrapper">
-			<div>список всех текущих ссуд
-				<div>1 item</div>
-				<div>2 item</div>
-				<div>3 item</div>
+			<p class="wrap"> Current loans </p>
+			<div class="boxh">
+				<div class="box">
+					<div class="bor">
+						<span>Loan name 1 </span> 
+						<p>Loan details, amounts and values</p>
+					</div>
+					<button class="dws1" type="submit" name="submit" value="INVEST">INVEST</button>
+				</div>
+				<div class="box">
+					<div class="bor">
+						<span>Loan name 2 </span> 
+						<p>Loan details, amounts and values</p>
+					</div>
+					<button class="dws1" type="submit" name="submit" value="INVEST">INVEST</button>
+				</div>
+				<div class="box">
+					<div class="bor">
+						<span>Loan name 3 </span> 
+						<p>Loan details, amounts and values</p>
+					</div>
+					<button class="dws1" type="submit" name="submit" value="INVEST">INVEST</button>
+				</div>
 			</div>
-			<div>Total:</div>
-			<div>модалка</div>
+			<div><p>Total amount available for investment:£238,456</p></div>
+			<div>
+				<div class="modal-overlay" id="modal-overlay"></div>
+				<div class="modal" id="modal">
+			  <button class="close-button" id="close-button">Close</button>
+			  		<div class="modal-guts">
+				<h1>Invset in loan</h1>
+				<p>Loan title you've clicked</p>
+				<p>Amount available: £12,362</p>
+				<p>Loan ends in: 1 month 10 days</p>
+				<p>Investmen amount (£)</p>
+			  		</div>
+				</div>
+			<button id="open-button" class="open-button">INVEST</button>
+			</div>
 		</div>
 	</main>
-	<footer class="footer">авторство</footer>
+	<footer class="footer">Тут будет футер</footer>
 </body>
 <script src="JS\main.js"></script>
+<script src="JS\modal.js"></script>
+
+
 </html>
